@@ -94,7 +94,7 @@ void rainbowFunction(){
     //turn off green
    for(int x=255; x<=0; x--)
     {
-      blue=x;
+      green=x;
       setColor(red,green,blue);
       delay(10);
     }
